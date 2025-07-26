@@ -135,7 +135,6 @@ def main():
                     bird_rect.center = (100, 280);
                     bird_movement = 0; 
                     score = 0;
-                    die_sound.play()
             
             if event.type == spawn_pipe:
                 pipe_list.extend(create_pipe())
